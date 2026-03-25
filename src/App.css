@@ -7,8 +7,24 @@ body { background: #fff; color: #111827; }
 .nav-container { background: #fff; position: sticky; top: 0; z-index: 1000; border-bottom: 1px solid #e5e7eb; }
 .nav { margin: 0 12%; padding: 16px 0; }
 .nav-content { display: flex; justify-content: space-between; align-items: center; width: 100%; }
-.logo { height: 75px; }
+.logo { height: 60px; }
 .nav-buttons { display: flex; gap: 12px; }
+
+/* ─── LOGO + SITE NAME ───────────────────────── */
+.logo-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.site-name {
+  font-size: 30px;
+  font-weight: 700;
+  padding-top: 10px;
+  font-family: 'Poppins', sans-serif;
+  color: #111827;
+  letter-spacing: 0.5px;
+}
 
 .btn-outline { padding: 10px 18px; border: 1.5px solid #ef4444; color: #111827; text-decoration: none; border-radius: 6px; font-weight: 600; background: transparent; transition: all 0.3s ease; }
 .btn-outline:hover { background: #ef4444; color: #fff; box-shadow: 0 6px 16px rgba(239,68,68,.35); transform: translateY(-2px); }
@@ -261,4 +277,17 @@ body { background: #fff; color: #111827; }
 
   .site-footer { padding: 26px 12px; margin-top: 60px; }
   .site-footer p { font-size: 12px; }
+
+
+.logo {
+  height: 50px; /* slightly smaller for better alignment */
+}  .logo-wrap {
+    justify-content: center;
+  }
+
+  .site-name {
+    padding-top: 10px;
+    font-size: 20px;
+  }
 }
+

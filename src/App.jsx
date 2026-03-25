@@ -160,6 +160,7 @@ function Navbar() {
       <nav className="nav">
         <div className="nav-content">
           <img src="/images/sri-electricals.png" alt="Ambaajee Logo" className="logo" />
+          <h1 className="site-name">Sri Electricals</h1>
           <div className="nav-buttons">
             <a href="#contact" className="btn-outline">Contact Us Today</a>
             <a href="https://maps.google.com/?q=Ktc nagar+Thoothukudi" target="_blank" rel="noreferrer" className="btn-solid">Get Direction</a>
